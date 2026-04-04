@@ -60,7 +60,7 @@
   After=network.target
   
   [Service]
-  ExecStart=/home/monad/monad-status-monitoring/monad-status-monitoring
+  ExecStart=/home/monad/monad-status-monitoring/bin/monad-status-monitoring
   WorkingDirectory=/home/monad/monad-status-monitoring
   User=monad
   Restart=always
