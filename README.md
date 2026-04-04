@@ -36,7 +36,10 @@
 - Update the `.env` file with Telegram Bot Token and Telegram Private Chat ID 
   ```aiignore
   nano .env
+  ```
   
+
+  ```aiignore
   TELEGRAM_TOKEN=804xxxx:AAEymFxxxxxxxxxxxxxxxxxxxxxxxxx
   TELEGRAM_CHAT_ID=-38xxxxxx
   RPC_PORT=8080  # default
@@ -48,7 +51,10 @@
 - Create `monad-status-monitoring.service` file
   ```aiignore
   sudo nano monad-status-monitoring.service
+  ```
   
+
+  ```aiignore
   [Unit]
   Description=Monad Sync Health Checker
   After=network.target
