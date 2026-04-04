@@ -50,9 +50,9 @@
 
 - Create `monad-status-monitoring.service` file
   ```aiignore
-  sudo nano monad-status-monitoring.service
+  sudo nano /etc/systemd/system/monad-status-monitoring.service
   ```
-  
+
 
   ```aiignore
   [Unit]
