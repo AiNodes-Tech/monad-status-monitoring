@@ -43,6 +43,7 @@
   TELEGRAM_TOKEN=804xxxx:AAEymFxxxxxxxxxxxxxxxxxxxxxxxxx
   TELEGRAM_CHAT_ID=-38xxxxxx
   RPC_PORT=8080  # default
+  NODE_NAME=monad-node-1 # Node name in notification message
   ```
   - Check the guide on how to get the [Telegram Bot Token](https://core.telegram.org/bots/features#creating-a-new-bot) 
   - And how to acuqire the [Telegram Chat ID](https://neliosoftware.com/content/help/how-do-i-get-the-channel-id-in-telegram/)
