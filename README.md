@@ -9,6 +9,17 @@
 
 ### 🎯Getting started
 
+- Install go (if needed)
+    ```aiignore
+    sudo apt update
+    sudo apt install golang-go -y
+    ```
+
+- Go to monad user directory
+   ```aiignore
+    cd /home/monad
+    ```
+
 - Download the repository
     ```aiignore
     git clone https://github.com/AiNodes-Tech/monad-status-monitoring.git
