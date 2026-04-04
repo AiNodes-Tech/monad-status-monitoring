@@ -31,12 +31,11 @@
     ```
 - Set the `.env` file
   ```aiignore
-  cd monad-status-monitoring
   mv .env.sample .env
   ```
 - Update the `.env` file with Telegram Bot Token and Telegram Private Chat ID 
   ```aiignore
-  vim .env
+  nano .env
   
   TELEGRAM_TOKEN=804xxxx:AAEymFxxxxxxxxxxxxxxxxxxxxxxxxx
   TELEGRAM_CHAT_ID=-38xxxxxx
@@ -48,7 +47,7 @@
 
 - Create `monad-status-monitoring.service` file
   ```aiignore
-  sudo vim monad-status-monitoring.service
+  sudo nano monad-status-monitoring.service
   
   [Unit]
   Description=Monad Sync Health Checker
