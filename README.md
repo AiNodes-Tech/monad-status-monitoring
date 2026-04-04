@@ -49,6 +49,11 @@
   - And how to acuqire the [Telegram Chat ID](https://neliosoftware.com/content/help/how-do-i-get-the-channel-id-in-telegram/)
   
 
+- Set permitions
+  ```aiignore
+  sudo chown -R monad:monad /home/monad/monad-status-monitoring
+  ```
+
 - Create `monad-status-monitoring.service` file
   ```aiignore
   sudo nano /etc/systemd/system/monad-status-monitoring.service
