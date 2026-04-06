@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os"
 	"strconv" // convert hex to decimal
+	"strings"
 	"time"
 )
 
@@ -35,7 +36,7 @@ get the current height from localhost:<RPC_PORT> using JSON-RPC.
 parse the response and convert the hex block height (e.g. 0xbc23a5) into decimal (e.g. 12345669).
 */
 func getBlockHeight() (int64, error) {
-	rpcPort := os.Getenv("RPC_PORT")
+	rpcPort := strings.TrimSpace(os.Getenv("RPC_PORT"))
 	if rpcPort == "" {
 		rpcPort = "8080"
 	}
